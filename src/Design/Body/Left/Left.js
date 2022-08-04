@@ -1,5 +1,7 @@
 import React from "react";
 import image from "./pro.jpg";
+import Skills from "./Skills";
+import Work from "./Work";
 
 export default function Left() {
   return (
@@ -18,7 +20,7 @@ export default function Left() {
           alt="profile pic"
           style={{
             borderRadius: "200px",
-            width:"80%",
+            width: "80%",
             marginLeft: "auto",
             marginRight: "auto",
           }}
@@ -48,6 +50,8 @@ export default function Left() {
         Undergraduate <br />
         Trincomalee Campus in EUSL
       </p>
+      <Skills />
+      <Work />
     </div>
   );
 }
