@@ -5,7 +5,7 @@ import Right from "./Right/Right";
 
 export default function Body() {
   return (
-    <div>
+    <div id="back">
       <Grid container spacing={2}>
         <Grid item md={4} xs={12}>
           <Left />
