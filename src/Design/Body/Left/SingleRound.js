@@ -38,7 +38,7 @@ CircularProgressWithLabel.propTypes = {
 };
 
 export default function SingleRound(p) {
-  console.log(p)
+  // console.log(p)
   const [progress, setProgress] = React.useState(10);
 
   React.useEffect(() => {
