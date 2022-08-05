@@ -1,4 +1,6 @@
 import React from "react";
+import Cv from "./Cv";
+import Projects from "./Projects/Projects";
 
 export default function AboutMe() {
   return (
@@ -6,7 +8,7 @@ export default function AboutMe() {
       <div style={{ padding: "20px 0px" }}>
         <p style={{ fontSize: "150%", color: "#ffbe06" }}>Personal Details</p>
         <p style={{ fontSize: "110%", width: "90%", color: "white" }}>
-          Cv & card
+          <Cv />
         </p>
       </div>
       <div style={{ padding: "20px 0px" }}>
@@ -100,6 +102,10 @@ export default function AboutMe() {
           Chemistry ...................... C <br />
           General English ........... C
         </p>
+      </div>
+      <div style={{ padding: "20px 0px" }}>
+        <p style={{ fontSize: "150%", color: "#ffbe06" }}>Projects</p>
+        <Projects />
       </div>
     </div>
   );
