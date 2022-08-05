@@ -12,6 +12,7 @@ export default function Skills() {
           fontWeight: "bold",
           marginBottom: "10px",
           color: "white",
+          marginTop: "30px",
         }}
       >
         Languages
@@ -33,6 +34,7 @@ export default function Skills() {
             background: "#252527",
             padding: "0px 20px",
             borderRadius: "18px",
+            paddingBottom: "10px",
           }}
         >
           <div style={{ textAlign: "center" }}>

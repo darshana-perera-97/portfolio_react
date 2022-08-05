@@ -12,7 +12,7 @@ export default function Work() {
           fontWeight: "bold",
           marginBottom: "10px",
           color: "white",
-          marginTop: "20px",
+          marginTop: "40px",
         }}
       >
         My Skills
@@ -24,6 +24,7 @@ export default function Work() {
       <SingleSkill name="UX UI Design" val="80"/>
       <SingleSkill name="Arduino" val="85"/>
       <SingleSkill name="Graphic Design" val="90"/>
+      <SingleSkill name="Backend Development" val="30"/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import LinearProgress from "@mui/material/LinearProgress";
 
 export default function SingleSkill(prop) {
   return (
-    <div>
+    <div style={{ marginBottom: "10px" }}>
       <div
         style={{
           width: "80%",
