@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "./AboutMe";
 import AnimationText from "./AnimationText";
 import image1 from "./profile.jpg";
 const code = "  <code>";
@@ -24,11 +25,10 @@ export default function Right() {
           padding: "20px",
         }}
       >
-        <p style={{ color: "#ffbe06" }}>{code}</p>
+        {/* <p style={{ color: "#ffbe06" }}>{code}</p>
         {/* <span style={{ marginLeft: "4%" }}> */}
-        <AnimationText />
+        {/* <AnimationText /> */}
         {/* </span> */}
-        <p style={{ color: "#ffbe06" }}>{code2}</p>
         <img
           src={image1}
           alt="profile pic"
@@ -38,9 +38,10 @@ export default function Right() {
             marginLeft: "auto",
             marginRight: "auto",
             textAlign: "center",
-            margin:"20px 0px"
+            margin: "20px 0px",
           }}
         />
+        <AboutMe />
       </div>
     </div>
   );

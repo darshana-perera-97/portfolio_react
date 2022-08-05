@@ -5,10 +5,11 @@ export default function SideBar() {
     <div
       style={{
         // background: "white",
-        background: "#464551"
+        background: "#464551",
+        height: "100%",
       }}
     >
-      SideBar
+      <p>Links</p>
     </div>
   );
 }
