@@ -1,5 +1,6 @@
 import React from "react";
 import AnimationText from "./AnimationText";
+import image1 from "./profile.jpg";
 const code = "  <code>";
 const code2 = "</code>";
 
@@ -28,6 +29,18 @@ export default function Right() {
         <AnimationText />
         {/* </span> */}
         <p style={{ color: "#ffbe06" }}>{code2}</p>
+        <img
+          src={image1}
+          alt="profile pic"
+          style={{
+            // borderRadius: "200px",
+            width: "93%",
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+            margin:"20px 0px"
+          }}
+        />
       </div>
     </div>
   );
